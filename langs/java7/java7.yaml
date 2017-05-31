@@ -1,0 +1,8 @@
+id: java7
+name: Java 7
+memory: 512m
+timeout: 4s
+src: Solution.java
+compiled: true
+dockerImage: openjdk:7
+templateFile: Solution.java

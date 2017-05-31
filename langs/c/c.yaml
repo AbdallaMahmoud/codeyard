@@ -1,0 +1,8 @@
+id: c
+name: C
+memory: 512m
+timeout: 4s
+src: Solution.c
+compiled: true
+dockerImage: gcc:6.3
+templateFile: Solution.c

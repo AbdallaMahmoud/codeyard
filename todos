@@ -1,0 +1,39 @@
+- exit after a maximum size of output
+* Codebus as a web service
+* Implement a page to write code
+* call code and display results
+* support input
+* generalize coderun.sh
+* separate stoutput and sterror
+* listing langs from the server
+* ace autocomplete
+* use web sockets
+* specify input
+* enhance ui
+* Maintain a pool with maximum number of instances
+Store last chosen language in cookies
+performance tuning
+
+
+
+* C++
+* C
+* Java
+JavaScript
+
+
+Architecture
+============
+Codebus
+    a system that runs code in different programming languages
+    return code output for a snippet
+    return code results against test cases
+Contesto
+Playground
+
+Code Run Flow
+=============
+Client sends code to the Codebus using a POST request
+Codebus returns CUID (Code Unique ID) to the client
+The client request status updates about CUID using websockets
+When status changes, Codebus inform the client using websockets

@@ -1,0 +1,8 @@
+id: python3
+name: Python 3
+memory: 512m
+timeout: 4s
+src: Solution.py
+compiled: false
+dockerImage: python
+templateFile: Solution.py

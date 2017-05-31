@@ -1,0 +1,128 @@
+body {
+    font-family: monospace;
+}
+a.navbar-brand {
+    color: #01579b !important;
+}
+
+#editor { 
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: 0px;
+}
+
+#input {
+    height: 100px;
+    width: 100%;
+    display: block;
+}
+
+.ace_editor {
+    position: relative;
+    overflow: hidden;
+    font: 12px/normal 'Monaco', 'Menlo', 'Ubuntu Mono', 'Consolas', 'source-code-pro', monospace;
+    direction: ltr;
+    text-align: left;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    margin: 0px;
+    float: left;
+}
+
+
+.output-pane {
+    display: block;
+    border: 1px solid #DDD;
+    border-radius: 4px;
+    background-color: #fafafa;
+    padding: 5px 10px;
+}
+.error {
+    color: red;
+}
+
+.navbar.navbar-default {
+    margin-bottom: 0px !important;
+}
+
+.navbar-default {
+    background-color: #fff;
+}
+
+body, html {height:100%;}
+div.wrap {height:100%; overflow:hidden;}
+body {overflow: hidden; }
+
+#bottom-pane {
+    height: 55px;
+    background-color: #ebebeb;
+    margin: 0px;
+    padding: 5px 10px;
+}
+
+#input-wrapper {
+    display: inline-block;
+    width: 500px;
+    /*background-color: yellow;*/
+    float: right;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+#output-wrapper {
+    display: inline-block;
+    width: 500px;
+    /*background-color: yellow;*/
+    float: right;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+h1.block-title {
+    font-size: 18px;
+    margin-left: 8px;
+}
+
+#output-data {
+    /*height: 190px;*/
+    /*background-color: yellow;*/
+    /*display: none;*/
+    overflow: auto;
+    background: #ebebeb;
+    margin: 0px 10px;
+    /*    border: 1px solid #ccc;
+        border-radius: 4px;*/
+}
+
+
+#output-p {
+    border: none;
+    border-radius: 0px;
+    background-color: transparent;
+    margin-bottom: 0px;
+}
+
+#bottom-pane.opened {
+    height: 255px;
+}
+
+
+#text-input {
+    display: block;
+    margin: 0px 10px;
+    resize: none;
+}
+
+
+
+#btn-run {
+    width: 70px;
+}
+
+#btn-run i{
+    width: 20px;
+}

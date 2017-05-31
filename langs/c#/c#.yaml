@@ -1,0 +1,8 @@
+id: c#
+name: C#
+memory: 512m
+timeout: 4s
+src: Solution.cs
+compiled: true
+dockerImage: mono:4.8.0.524
+templateFile: Solution.cs
