@@ -1,5 +1,7 @@
 body {
     font-family: monospace;
+    padding: 0px;
+    margin: 0px;
 }
 a.navbar-brand {
     color: #01579b !important;
@@ -125,4 +127,27 @@ h1.block-title {
 
 #btn-run i{
     width: 20px;
+}
+
+nav.navbar-nav.navbar-right > li {
+    height: 50px;
+}
+
+.nav.navbar-nav.navbar-right > li > a{
+    background-color: #24292e;
+    color: white;
+    padding: 10px;
+    padding-bottom: 5px;
+    height: 50px;
+}
+
+.github{
+    display: block;
+    float: right;
+    margin-top: 6px;
+    margin-left: 10px
+}
+
+.github-icon {
+    margin-top: 3px;
 }
