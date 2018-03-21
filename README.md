@@ -1,5 +1,5 @@
 # codeyard
-A docker-based multi-language IDE for the could
+Simple cloud code editor and compiler, based on Spring and Docker.
 
-## Screenshot
-[Main Screen](https://drive.google.com/file/d/0B0HTJ27pSCu_SmxONjl3dzNheWs/view?usp=sharing)
+## Demo
+[Click here to view a live demo.](https://codeyard.co/)
